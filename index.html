@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Artbook</title>
+</head>
+
+<body>    
+    
+<header>
+    <h1 id="top">JS art</h1>
+</header>
+
+
+<div id="cdog" class="overlay" onclick="off1()">
+    <div id="text">[The dog was formed by squares]</div>
+</div>
+
+<div id="cstars" class="overlay" onclick="off2()">
+    <div id="text">[The stars change color each refresh]</div>
+</div>
+
+<div id="ctunnel" class="overlay" onclick="off3()">
+    <div id="text">[The lines points in one direction making it an optical illusion]</div>
+</div>
+
+<div id="cdrawing" class="overlay" onclick="off4()">
+    <div id="text">[This drawing also changes color each refresh]</div>
+</div>
+
+<div id="ctree" class="overlay" onclick="off5()">
+    <div id="text">[The choice of the color design is inspired by the cherry blossom trees]</div>
+</div>
+
+
+<main>
+<canvas id="dog"   width="800%" height="560%" style="border:1px solid #000000; background-color: white;" onclick="on1()"></canvas>
+
+<canvas id="stars"   width="800%" height="560%" style="border:1px solid #000000; background-color: white;" onclick="on2()"></canvas>
+
+<canvas id="tunnel"   width="800%" height="560%" style="border:1px solid #000000; background-color: white; " onclick="on3()"></canvas>
+
+<canvas id="drawing"   width="800%" height="560%" style="border:1px solid #000000; background-color: white;" onclick="on4()"></canvas>
+
+<canvas id="tree"   width="800%" height="560%" style="border:1px solid #000000; background-color: white;" onclick="on5()"></canvas>
+</main>
+
+
+<footer>
+    <a href="#dog"><p>Dog</p></a>
+    <a href="#stars"><p>Stars</p></a>
+    <a href="#tunnel"><p>Tunnel</p></a>
+    <a href="#drawing"><p>Drawing</p></a>
+    <a href="#tree"><p>Tree</p></a>
+</footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
